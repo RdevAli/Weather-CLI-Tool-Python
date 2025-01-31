@@ -11,7 +11,7 @@ weather_data = requests.get(f"{base_url}/weather?q={user_input}&units=metric&app
 weather = weather_data.json()['weather'][0]['main']
 temp = weather_data.json()['main']['temp']
 humidity = weather_data.json()['main']['humidity']
-print(f"Current Weather at {user_input} is {weather}, with current temperature of {temp} Celcius and humidity of {humidity}")
+print(f"Current Weather at {user_input} is {weather}, with current temperature of {temp}°C and humidity of {humidity}%")
 lat= weather_data.json()['coord']['lat']
 lon= weather_data.json()['coord']['lon']
 
