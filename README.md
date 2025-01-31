@@ -74,4 +74,4 @@ The Forecast for next 5 days is:
 ## Acknowledgments
 
 - Thanks to [OpenWeatherMap](https://openweathermap.org/) for providing the weather data API.
-```
+
